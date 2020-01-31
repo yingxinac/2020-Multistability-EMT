@@ -1,5 +1,7 @@
 # 2020-Multistability-EMT
 
+DOI: 10.5281/zenodo.3633343
+
 ### Results of the simulations for our EMT databases are summarized in the tables in the spreadsheet "SpreadSheets.xlsx", which includes five tabs:
  --"ALLE": results for the database with all the nodes in our EMT network essential
  --"Snail1": results for the database with only the node Snail1 inessential
