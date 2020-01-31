@@ -1,0 +1,6 @@
+Zeb1 : (Snail1)(~Ovol2)(~miR200) : E
+Snail1 : (~miR34a)(TGFb) : E
+miR200 : (~Snail1)(~Zeb1) : E
+miR34a : (~Snail1)(~Zeb1) : E
+TGFb : (~miR200)(~Ovol2) : E
+Ovol2 : ~Zeb1 
