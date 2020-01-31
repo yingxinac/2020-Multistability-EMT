@@ -1,6 +1,6 @@
-### 2020-Multistability-EMT
+# 2020-Multistability-EMT
 
-### Results of these calculations for our EMT databases are summarized in the tables in the spreadsheet "SpreadSheets.xlsx", which includes five tabs:
+# Results of these calculations for our EMT databases are summarized in the tables in the spreadsheet "SpreadSheets.xlsx", which includes five tabs:
  --"ALLE": results for the database with all the nodes in our EMT network essential
  --"Snail1": results for the database with only the node Snail1 inessential
  --"Ovol2": results for the database with only the node Ovol2 inessential
@@ -8,9 +8,9 @@
  --"Zeb1": results for the database with only the node Zeb1 inessential
 The meanings of the data summarized in these tables are specified in the headlines of them. 
 
-### Methods: 
+# Methods: 
 ## [Part 1: Creating a database for a network]
-# STEPS: 
+### STEPS: 
 STEP1: Installing the software DSGRN.  Instructions can be found at https://github.com/shaunharker/DSGRN and https://dsgrn.readthedocs.io/en/latest/
        
 STEP2: Specify the network for which DSGRN database needs to  be computed in a .txt file.  
@@ -26,7 +26,7 @@ STEP3: Create a database for the specified network using DSGRN.  Instructions ca
        -- "./2D_Example_C.db" specifies the file name of the database.
 
 ## [Part2: Computing data needed for the Figures in our EMT database query]
-# Remarks:
+### Remarks:
 #Remark 1: When switching to a different database, one needs to change the database file used in  "PointLayers.py" first.
 Then, when using
 "PointLayers.py",
@@ -49,7 +49,7 @@ Details on what each script does is inside those scripts.
 
 #Remark4: FP layer -- a FP layer is a set of FPs on the projection of the states in the six-dimensional phase space of the EMT network to three dimensions corresponding to Zeb1, Snail1 and Ovol2, with a particular fixed Hamming distance from the extreme values representing E and M states.
 
-# STEPS (Take the Zeb1 case as an example): 
+### STEPS (Take the Zeb1 case as an example): 
 STEP1: Run "ExactlyNstable.py" -- get some basic information about the network of interest.
        (For different databases, choose the input database file in the line "database = DSGRN.Query.Database.Database("....db")" 
         according to the database being used.  In this case, write "database = DSGRN.Query.Database.Database("EMT_Zeb1notE.db")")
