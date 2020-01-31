@@ -10,7 +10,7 @@ The meanings of the data summarized in these tables are specified in the headlin
 
 # Methods: 
 ## [Part 1: Creating a database for a network]
-### STEPS: 
+### Steps: 
 STEP1: Installing the software DSGRN.  Instructions can be found at https://github.com/shaunharker/DSGRN and https://dsgrn.readthedocs.io/en/latest/
        
 STEP2: Specify the network for which DSGRN database needs to  be computed in a .txt file.  
@@ -49,7 +49,7 @@ Details on what each script does is inside those scripts.
 
 #Remark4: FP layer -- a FP layer is a set of FPs on the projection of the states in the six-dimensional phase space of the EMT network to three dimensions corresponding to Zeb1, Snail1 and Ovol2, with a particular fixed Hamming distance from the extreme values representing E and M states.
 
-### STEPS (Take the Zeb1 case as an example): 
+### Steps (take the Zeb1 case as an example): 
 STEP1: Run "ExactlyNstable.py" -- get some basic information about the network of interest.
        (For different databases, choose the input database file in the line "database = DSGRN.Query.Database.Database("....db")" 
         according to the database being used.  In this case, write "database = DSGRN.Query.Database.Database("EMT_Zeb1notE.db")")
