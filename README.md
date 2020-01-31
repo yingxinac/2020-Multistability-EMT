@@ -79,6 +79,7 @@ STEP6: Run "EMoccur_in_HexLayers.py" and save the outputs -- get the number of p
                                                                   hexlayers = ...HexcodeLayers...._layers" accordingly.
         In this case, write "import Zeb1HexcodeLayers
                              hexlayers = Zeb1HexcodeLayers.zeb1_layers") 
+                             
 STEP7: Run "PlayersMono_in_HexLayers.py" and save the outputs -- get the number of parameter nodes in each parameter graph layer at            which the network is monostable at each FP layer.
        (For different databases, choose the input database file in the line "database = DSGRN.Query.Database.Database("....db")" 
         according to the database being used.  In this case, write "database = DSGRN.Query.Database.Database("EMT_Zeb1notE.db")")
